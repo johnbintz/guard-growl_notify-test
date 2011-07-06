@@ -1,0 +1,35 @@
+GIT
+  remote: git://github.com/johnbintz/guard.git
+  revision: 7f87411189ff2c3fac869a4d3ff1987e6e4e8b26
+  branch: also-use-growl_notify
+  specs:
+    guard (0.4.2)
+      thor (~> 0.14.6)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.2)
+    growl_notify (0.0.1)
+      rb-appscript
+    guard-rspec (0.4.0)
+      guard (>= 0.4.0)
+    rb-appscript (0.6.1)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+    thor (0.14.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  growl_notify
+  guard!
+  guard-rspec
+  rspec (~> 2.6.0)
